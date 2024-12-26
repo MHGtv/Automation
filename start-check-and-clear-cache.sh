@@ -30,7 +30,7 @@ else
         pip3 install --upgrade setuptools wheel
 
         echo "Cài đặt hoàn tất!"
-        sleep(5)
+        #sleep(5)
         echo " BẮT ĐẦU CHƯƠNG TRÌNH KIỂM TRA THƯ MỤC CACHE ---> "
         curl -s https://raw.githubusercontent.com/MHGtv/Automation/refs/heads/main/check_cache.py | python3
 
